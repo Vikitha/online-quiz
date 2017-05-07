@@ -1,0 +1,108 @@
+
+<!doctype html>
+<html>
+<head>
+<style>
+div.qu1 ,div.qu2, div.qu3,div.qu4,div.qu5
+{
+  color:white;
+  padding:20px;
+  text-size:20%;
+  margin:20px;
+}
+
+h1
+{
+padding:20px;
+text-size:20%;
+margin:20px;
+background-color:black;
+color:white;
+border-radius:5px;
+}
+.button {
+    background-color:green; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin: 0 500px;
+    cursor: pointer;
+	border-radius:5px;
+}
+body
+{
+ background-color:#1AD9FB;
+ background-image:url("wall3.jpg");
+ background-size:cover;
+ font-family:"Comic Sans MS", cursive, sans-serif;
+
+}
+
+h1
+{ 
+ color:cyan;
+}
+</style>
+</head>
+<body >
+  <h1 align=center color="cyan">Online Test</h1>
+  <form action="score1.jsp">
+
+  <div class="qu1" required>
+  <font size="5">  
+  Q1. What is the &lt br &gt tag for? 
+	<br><br>
+     <input type="radio" name="Q1" value="a" required> Space<br>
+     <input type="radio" name="Q1" value="b" required> Paragraph break <br>
+	 <input type="radio" name="Q1" value="c" required> Line break <br>
+     <input type="radio" name="Q1" value="d" required> Word break<br>
+  </font>
+  </div>
+<hr>
+  <div class="qu2" required>
+   <font size="5">  
+    Q2. Is width=”100px” and width=”100%” the same? 
+	<br><br>
+     <input type="radio" name="Q2" value="a" required> Yes<br>
+     <input type="radio" name="Q2" value="b" required> No<br>
+	  </font>
+  </div>
+<hr>
+  <div class="qu3" required>
+   <font size="5">  
+    Q3. What is the attribute for &lt img &gt tag?
+	<br><br>
+     <input type="radio" name="Q3" value="a" required> li<br>
+     <input type="radio" name="Q3" value="b" required> url<br>
+	 <input type="radio" name="Q3" value="c" required> path<br>
+     <input type="radio" name="Q3" value="d" required> src<br>
+	  </font>
+  </div>
+<hr>
+  <div class="qu4" required>
+   <font size="5">  
+    Q4. Which of the following attributes of text box control allow to limit the maximum character?
+	<br><br>
+     <input type="radio" name="Q4" value="a" required> size<br>
+     <input type="radio" name="Q4" value="b" required> len<br>
+	 <input type="radio" name="Q4" value="c" required> maxlength<br>
+     <input type="radio" name="Q4" value="d" required> all of these<br>
+	  </font>
+  </div>
+<hr>
+  <div class="qu5" required>
+   <font size="5">  
+    Q5. The latest HTML standard is
+	<br><br>
+     <input type="radio" name="Q5" value="a" required> XML<br>
+     <input type="radio" name="Q5" value="b" required>SGML<br>
+	 <input type="radio" name="Q5" value="c" required> HTML 4.0<br>
+     <input type="radio" name="Q5" value="d" required> HTML 5.0<br>
+	  </font>
+  </div>
+
+<button class="button" onclick="check()">Done</button>
+</form>
+</body>
+</html>

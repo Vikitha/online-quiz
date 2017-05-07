@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul
+{
+    list-style-type: none;
+	margin: 0;
+    overflow: hidden;
+    background-color:  #994d00;
+}
+li
+{
+    float: left;
+}
+li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+li a:hover
+{
+    background-color: #ffa64d;
+}
+body
+{
+ background-image:url("wall1.jpg");
+ background-size:cover;
+}
+h1
+{
+ background-color:#333333;
+}
+div.side
+{
+background-color:#e1eff1;
+float:right;
+margin-left:30px;
+ border-radius: 25px;
+}
+div.side a
+{
+text-decoration:none;
+}
+div.leftfull
+{
+background-color:#e1eff1;
+float:left;
+margin-right:30px;
+ border-radius: 25px;
+}
+div.top
+{
+float:top;
+background-color:  #994d00;
+text-align: center;
+color:white;
+padding:10px;
+font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+div.bottom
+{
+margin:20px;
+}
+div.cent
+{
+padding: 10px 70px ;
+color: #803300;
+font-family:"Comic Sans MS", cursive, sans-serif;
+font-size:18px;
+}
+h4 a
+{
+color:#eb2f82;
+text-decoration: none;
+  padding: 10px;
+}
+h4 a:hover
+{
+background-color:	 #b3feff;
+padding:10px;
+}
+div.tag a
+{
+text-decoration: none;
+padding:10px;
+margin:100px;
+font-size:20;
+background:green;
+color:white;
+}
+.button
+{
+    background-color: #ffa64d;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+	border-radius: 50%;
+}
+.button:hover
+{
+background-color:#b33c00;
+
+}
+.button1
+{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	width:250px;
+}
+</style>
+</head>
+<body>
+<img src="quiz-banner.png" width=100% height=110px>
+<table width="100%"> 
+<tr>
+<td>
+<ul>
+  <li style="float:right"><a href="home.html">Logout</a></li>
+   <li style="float:right"><a href="feedback.html">Feedback</a></li>
+    <li style="float:right"><a href="contactdemo.html">Contact us</a></li>
+  <li style="float:right"><a href="aboutus.html">About us</a></li>
+</ul>
+</td>
+</tr>
+</table>
+
+<br>
+<hr color=#c70039>
+<marquee  scrollamount="7" behavior="alternate"><font size="6" color="red"><b>Welcome to online QUIZ </b></font></marquee>
+<hr color=#c70039>
+<br>
+ <div class="side">
+   <div class="top">For Practice </div>
+    <div class="bottom">
+	<button class="button button1" onclick="location.href='http://www.allindiaexams.in/online-test/online-general-knowledge-test/all';">General Knowledge</button><br>
+   <button class="button button1" onclick="location.href='http://www.math-only-math.com/online-math-quiz.html';">Mathematics</button><br>
+   <button class="button button1" onclick="location.href='http://www.indiabix.com/online-test/logical-reasoning-test/';">Reasoning</button><br>
+   <button class="button button1" onclick="location.href='http://mcqquestions.com/online-quiz-on-fundamentals-of-computer-set-1';">Computer</button><br>
+   <button class="button button1" onclick="location.href='http://www.freeonlinetest.in/question-and-answer/General-Knowledge/Logo-Quiz';">Logo Quiz</button><br>
+    <button class="button button1" onclick="location.href='http://www.indiabix.com/online-test/c-programming-test/random';">Programming</button><br>
+   </div>
+ </div>
+ <div class="leftfull">
+ <div class="top">Take our test on</div>
+ <div class="bottom">
+<button class="button button1" onclick="location.href='oltest1.html';">HTML</button><br>
+<button class="button button1" onclick="location.href='oltest2.html';">logo</button><br>
+<button class="button button1" onclick="location.href='oltest3.html';">computer</button>
+</div>
+</div>
+<div class="cent">
+Online Quiz portal is a knowledge sharing and enhance your knowledge portal. There are various categories in which you can check your potential.Some of them are given to the right side of the page.You can check your knowledge by playing the Quiz in various given categories. <br><br>
+To the right side of the page there are practice tests.You can click on any of them to take practice tests.<br><br>
+To the left side of the page there are tests from our website.....
+<br>Take those tests to check your knowledge level.
+</div>
+<br>
+</body>
+</html>

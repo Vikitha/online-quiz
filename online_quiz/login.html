@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<style>
+a
+{
+text-decoration:none;
+color:white;
+}
+a:hover
+{
+color:#00cccc;
+}
+
+input[type=text], input[type=password], select {
+    width: 100%;
+	background-color:#f2fafa;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+	background-color: #ffa64d;
+    color: black;
+    padding: 14px 20px;
+    border-radius : 4px;
+	margin: 8px 0;
+	border:none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #188d82;
+}
+
+div {
+     margin: 0 400px ;
+    border-radius: 5px;
+    background-color:#804000;
+     padding: 20px;
+   
+}
+h1{
+   text-align:center;
+   color:black;
+}
+label{
+color:white;
+}
+body
+{
+ background-image:url("wall1.jpg");
+ background-size:cover;
+}
+</style>
+<script>  
+function validateform(){  
+var name=document.loginform.name.value;  
+var password=document.loginform.password.value;  
+  
+if (name==null || name==""){  
+  alert("Name can't be blank");  
+  return false;  
+}else if(password.length<6){  
+  alert("Password must be at least 6 characters long.");  
+  return false;  
+  }  
+}  
+</script>  
+<body>
+
+<h1>Login</h1>
+
+<div>
+  <form name="loginform" action="loginval.com" method="post" onsubmit="return validateform()">
+
+    <label for="name" >Name *</label>
+    <input type="text" id="name" name="name" placeholder="Enter name" required>  <br>
+
+    <br> <label for="pwd">Password *</label>
+    <input type="password" id="pwd" name="password" placeholder="Enter password" required><br><br>
+  
+    <input type="submit" value="Login">
+  </form>
+  <p align="center">
+  <font color="white">not registered?</font> <a href="reg.html"> create an account</a></p>
+</div>
+
+</body>
+</html>

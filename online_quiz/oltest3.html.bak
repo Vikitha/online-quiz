@@ -1,0 +1,110 @@
+
+<!doctype html>
+<html>
+<head>
+<style>
+div.qu1 ,div.qu2, div.qu3,div.qu4,div.qu5
+{
+  color:white;
+  padding:20px;
+  text-size:20%;
+  margin:20px;
+}
+
+h1
+{
+padding:20px;
+text-size:20%;
+margin:20px;
+background-color:black;
+color:white;
+border-radius:5px;
+}
+.button {
+    background-color:green; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin: 0 500px;
+    cursor: pointer;
+	border-radius:5px;
+}
+body
+{
+ background-color:#1AD9FB;
+ background-image:url("wall3.jpg");
+ background-size:cover;
+ font-family:"Comic Sans MS", cursive, sans-serif;
+
+}
+
+h1
+{ 
+ color:cyan;
+}
+</style>
+</head>
+<body >
+  <h1 align=center color="cyan">Online Test</h1>
+  <form action="score3.jsp">
+
+  <div class="qu1">
+  <font size="5">  
+  Q1. Which of the following computer language is used for artificial intelligence? 
+	<br><br>
+     <input type="radio" name="Q1" value="a" required> FORTRAN<br>
+     <input type="radio" name="Q1" value="b" required> C <br>
+	 <input type="radio" name="Q1" value="c" required> PROLOG<br>
+     <input type="radio" name="Q1" value="d" required> COBOL<br>
+  </font>
+  </div>
+<hr>
+  <div class="qu2">
+   <font size="5">  
+    Q2. Which part interprets program instructions and initiate control operations.
+	<br><br>
+     <input type="radio" name="Q2" value="a" required> Input<br>
+     <input type="radio" name="Q2" value="b" required> Storage unit<br>
+	 <input type="radio" name="Q2" value="c" required> Logic unit<br>
+	 <input type="radio" name="Q2" value="d" required> Control unit<br>
+	  </font>
+  </div>
+<hr>
+  <div class="qu3">
+   <font size="5">  
+    Q3.The binary system uses powers of
+	<br><br>
+     <input type="radio" name="Q3" value="a" required> 2<br>
+     <input type="radio" name="Q3" value="b" required> 10<br>
+	 <input type="radio" name="Q3" value="c" required> 8<br>
+     <input type="radio" name="Q3" value="d" required> 16<br>
+	  </font>
+  </div>
+<hr>
+  <div class="qu4">
+   <font size="5">  
+    Q4. Which computer has been designed to be as compact as possible?
+	<br><br>
+     <input type="radio" name="Q4" value="a" required> Mini<br>
+     <input type="radio" name="Q4" value="b" required> len<br>
+	 <input type="radio" name="Q4" value="c" required>  Micro computer<br>
+     <input type="radio" name="Q4" value="d" required> Mainframe<br>
+	  </font>
+  </div>
+<hr>
+  <div class="qu5">
+   <font size="5">  
+    Q5.  ASCII stands for
+	<br><br>
+     <input type="radio" name="Q5" value="a" required> American standard code for information interchange<br>
+     <input type="radio" name="Q5" value="b" required>All purpose scientific code for information interchange<br>
+	 <input type="radio" name="Q5" value="c" required> American security code for information interchange<br>
+     <input type="radio" name="Q5" value="d" required> American Scientific code for information interchange<br>
+	  </font>
+  </div>
+
+<button class="button">Done</button>
+</form>
+</body>
+</html>
